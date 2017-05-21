@@ -12,7 +12,7 @@ import requests
 from bs4 import BeautifulSoup
 import re
 
-from utils import get_soup , get_user_soup
+from .utils import get_soup , get_user_soup
 
 
 class GH(object):

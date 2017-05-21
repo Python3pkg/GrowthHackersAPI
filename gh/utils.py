@@ -2,7 +2,7 @@
 import requests 
 from bs4 import BeautifulSoup
 
-from constants import BASE_URL
+from .constants import BASE_URL
 
 def get_soup(page=''):
 	content = ''

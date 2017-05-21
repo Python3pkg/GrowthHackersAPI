@@ -3,7 +3,7 @@ from os import path
 import sys
 import unittest
 
-from test_utils import get_content , PRESETS_DIR
+from .test_utils import get_content , PRESETS_DIR
 from gh import Comment
 
 from bs4 import BeautifulSoup
